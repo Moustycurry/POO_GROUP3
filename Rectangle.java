@@ -84,10 +84,11 @@ public class Rectangle {
 
     return new Rectangle(minX, maxX, minY, maxY);
 }
-@Override
-public String toString() {
+ @Override
+ public String toString() {
     return "Rectangle [Point A=(" + A.getx() + ", " + A.gety() + "), longueur=" + longueur + ", largeur=" + largeur + "]";
 }
+
 @Override
 public boolean equals(Object obj) {
     if (this == obj) return true; // Même référence
